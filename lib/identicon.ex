@@ -12,6 +12,8 @@ defmodule Identicon do
     - Save image
   """
 
+  @compile {:no_warn_undefined, :egd}
+
   def main(input) do
     input
     |> hash_input()

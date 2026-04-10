@@ -19,3 +19,10 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/identicon>.
 
+# Run
+
+To run the project, you can use the following command in your terminal:
+
+```bash
+mix run -e "Identicon.main('your_input_string')"
+```
